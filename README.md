@@ -8,7 +8,7 @@ on Microsoft Fabric Lakehouse.
 ## Architecture
 Shopify REST API → Paginated Fetch → Delta Table (bronze_shopify_orders)
 
-! [Shopify Medallion Architecture](complete_medallion_architecture.png)
+! [Architecture](complete_medallion_architecture.png)
 ## Features
 - Paginated API fetch (250 orders per page)
 - Incremental loading (only fetches new/updated orders)
