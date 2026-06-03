@@ -9,7 +9,7 @@ spark = SparkSession.builder.getOrCreate()
 
 # --- Config ---
 STORE_NAME  = "fabric-pipeline-dev"
-API_TOKEN   = "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"
+API_TOKEN   = "YOUR_TOKEN_HERE"
 API_VERSION = "2024-04"
 LIMIT       = 250
 
