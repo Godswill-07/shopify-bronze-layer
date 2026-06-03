@@ -8,7 +8,7 @@ on Microsoft Fabric Lakehouse.
 ## Architecture
 Shopify REST API → Paginated Fetch → Delta Table (bronze_shopify_orders)
 
-! [Architecture](complete_medallion_architecture.png)
+![Architecture](complete_medallion_architecture.png)
 ## Features
 - Paginated API fetch (250 orders per page)
 - Incremental loading (only fetches new/updated orders)
@@ -40,4 +40,4 @@ Shopify REST API → Paginated Fetch → Delta Table (bronze_shopify_orders)
 
 ## Pipeline Schedule
 Runs daily at 2:00 AM WAT via shopify_medallion_pipeline
-![pipeline schedule refresh](pipeline_schedule_refresh.jpeg)
+![Schedule_refresh](pipeline_schedule_refresh.jpeg)
